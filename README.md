@@ -2,13 +2,9 @@
 
 This project was developed during the **AICTE – Edunet Internship (July–Aug 2025)**. The goal is to predict future electric vehicle (EV) adoption trends across counties in Washington State using machine learning and deploy the results through an interactive web app.
 
----
-
 ## Objective
 
 To forecast electric vehicle (EV) demand over the next 36 months using historical registration data, enabling better insights for EV infrastructure planning.
-
----
 
 ## Problem Statement
 
@@ -18,15 +14,11 @@ Using a real-world dataset from the Washington State Department of Licensing (DO
 - Analyze growth trends based on vehicle types (BEVs, PHEVs).
 - Compare EV adoption across counties using historical monthly registration data (2017–2024).
 
----
-
 ## Tools & Technologies
 
 - **Language**: Python 3.12.8  
 - **Libraries**: pandas, numpy, matplotlib, scikit-learn, joblib, streamlit  
 - **Environments**: Google Colab, Kaggle, VS Code, Jupyter Notebook
-
----
 
 ## Methodology
 
@@ -50,32 +42,31 @@ Using a real-world dataset from the Washington State Department of Licensing (DO
    - Displayed historical and forecasted EV trends using Matplotlib  
    - Showed percentage growth insights across selected regions
 
----
-
 ## Running the Project
 
 1. Clone the repository and open the folder in Visual Studio Code:
-git clone [https://github.com/JayashreeAN/EV-Charging-Demand-Prediction-Edunet-AICTE-Internship.git](https://github.com/JayashreeAN/EV-Charging-Demand-Prediction-Edunet-AICTE-Internship.git)
+   
+git clone (https://github.com/JayashreeAN/EV-Charging-Demand-Prediction-Edunet-AICTE-Internship.git)
 
 cd EV-Charging-Demand-Prediction-Edunet-AICTE-Internship
 
 2. (Optional) Create and activate a virtual environment:
+   
 python -m venv venv
+
 .\venv\Scripts\activate   # for Windows 
 
-3. Install the required dependencies:
+4. Install the required dependencies:
+   
 pip install -r requirements.txt
 
-4. Run the Streamlit application:  
+6. Run the Streamlit application:
+ 
 streamlit run app.py
-
-```
 
 The web app will launch in your browser, allowing you to forecast EV adoption per county and compare regional trends.
 
----
-
-## 📦 Project Files
+## Project Files
 
 | File Name                        | Description                                |
 |----------------------------------|--------------------------------------------|
@@ -86,11 +77,9 @@ The web app will launch in your browser, allowing you to forecast EV adoption pe
 | requirements.txt                 | Python dependencies                        |
 | EV_Charging_Demand_Prediction.ipynb | Jupyter notebook for EDA + model training |
 
----
-
 ## Developed By
 
 **Jayashree N**  
 Artificial Intelligence & Data Science  
 AICTE – Edunet Internship 2025
-```
+
