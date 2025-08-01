@@ -45,24 +45,24 @@ Using a real-world dataset from the Washington State Department of Licensing (DO
 ## Running the Project
 
 1. Clone the repository and open the folder in Visual Studio Code:
-   
-git clone (https://github.com/JayashreeAN/EV-Charging-Demand-Prediction-Edunet-AICTE-Internship.git)
 
-cd EV-Charging-Demand-Prediction-Edunet-AICTE-Internship
+   git clone (https://github.com/JayashreeAN/EV-Charging-Demand-Prediction-Edunet-AICTE-Internship.git)
 
-2. (Optional) Create and activate a virtual environment:
-   
-python -m venv venv
+   cd EV-Charging-Demand-Prediction-Edunet-AICTE-Internship
 
-.\venv\Scripts\activate   # for Windows 
+3. (Optional) Create and activate a virtual environment:
 
-4. Install the required dependencies:
-   
-pip install -r requirements.txt
+   python -m venv venv
 
-6. Run the Streamlit application:
- 
-streamlit run app.py
+   .\venv\Scripts\activate   # for Windows 
+
+5. Install the required dependencies:
+  
+   pip install -r requirements.txt
+
+8. Run the Streamlit application:
+
+   streamlit run app.py
 
 The web app will launch in your browser, allowing you to forecast EV adoption per county and compare regional trends.
 
